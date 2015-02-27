@@ -6,6 +6,10 @@ for file in $home_files; do
 	ln -sfv $dotfiles_dir/$file ~/.$file
 done
 
+#install openbox theme
+theme=Crunchbang
+sudo ln -sfv $dotfiles_dir/$theme /usr/share/themes/$theme
+
 #install openbox configs
 openbox_files="autostart.sh menu.xml rc.xml"
 for file in $openbox_files; do
