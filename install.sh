@@ -7,8 +7,8 @@ for file in $home_files; do
 done
 
 #install openbox theme
-theme=Crunchbang
-sudo ln -sfv $dotfiles_dir/$theme /usr/share/themes/$theme
+theme=CrunchBang
+sudo cp -r $dotfiles_dir/$theme /usr/share/themes/$theme
 
 #install openbox configs
 openbox_files="autostart.sh menu.xml rc.xml"
