@@ -1,7 +1,7 @@
 sudo apt-get update
 
 sudo apt-get install htop pidgin pidgin-otr icedove vim git openbox obconf tint2 pcmanfm\
-    x11-common lightdm zsh mplayer vlc 
+    x11-common lightdm zsh mplayer vlc gmrun
 
 sudo wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh\
     -O - |  sh
