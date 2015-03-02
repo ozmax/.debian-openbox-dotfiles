@@ -10,16 +10,10 @@ done
 theme=CrunchBang
 sudo cp -r $dotfiles_dir/$theme /usr/share/themes/$theme
 
-#install openbox configs
-openbox_files="autostart.sh menu.xml rc.xml"
-for file in $openbox_files; do
-	ln -sfv $dotfiles_dir/$file ~/.config/openbox/$file
-done
-
 #install zsh ozmaxify theme
 theme=ozmaxify.zsh-theme
 ln -sfv $dotfiles_dir/$theme ~/.oh-my-zsh/themes/$theme
 
-#install tint2 config
-file=tint2rc
-ln -sfv $dotfiles_dir/$file ~/.config/tint2/$file
+#install desktop configs
+configs=config
+ln -sfv $dotfiles_dir/$configs ~/.$configs
