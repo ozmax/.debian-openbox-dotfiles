@@ -1,5 +1,5 @@
 #dotfile folder path
-dotfiles_dir=~/.dotfiles
+dotfiles_dir=~/.debian-openbox-dotfiles
 
 home_files="vimrc zshrc tmux.conf gitconfig"
 for file in $home_files; do
