@@ -11,8 +11,8 @@ theme=CrunchBang
 sudo cp -r $dotfiles_dir/$theme /usr/share/themes/$theme
 
 #install zsh ozmaxify theme
-#theme=ozmaxify.zsh-theme
-#ln -sfv $dotfiles_dir/$theme ~/.oh-my-zsh/themes/$theme
+theme=ozmaxify.zsh-theme
+ln -sfv $dotfiles_dir/$theme ~/.oh-my-zsh/themes/$theme
 
 #install desktop configs
 configs=config
