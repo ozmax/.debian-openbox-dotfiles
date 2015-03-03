@@ -17,3 +17,5 @@ ln -sfv $dotfiles_dir/$theme ~/.oh-my-zsh/themes/$theme
 #install desktop configs
 configs=config
 ln -sfv $dotfiles_dir/$configs ~/.$configs
+
+sudo chsh -s /bin/zsh ozmax

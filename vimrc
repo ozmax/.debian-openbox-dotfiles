@@ -9,13 +9,14 @@ set nocompatible
 filetype off
 syntax on
 colorscheme desert
-let g:ctrlp_map = '<c-p>'
+#fix this later
+#let g:ctrlp_map = '<c-p>'
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+#set rtp+=~/.vim/bundle/Vundle.vim
+#call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'kien/ctrlp.vim'
+#Plugin 'gmarik/Vundle.vim'
+#Plugin 'kien/ctrlp.vim'
 
-call vundle#end()
-filetype plugin indent on
+#call vundle#end()
+#filetype plugin indent on
